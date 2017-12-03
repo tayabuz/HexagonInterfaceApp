@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="HexagonInterface.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HexagonInterface"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xaml="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    mc:Ignorable="d">
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <RadioButton x:Name="firstMethod" Content="По координатам верхней и нижней точки" IsChecked="True"  Checked="firstMethod_Checked" HorizontalAlignment="Center"/>
+                <RadioButton x:Name="secondMethod" Content="По координатам вершины + длина высоты и ширины" Checked="secondMethod_Checked" HorizontalAlignment="Center"/>
+                <Button x:Name="startMethodButton" Content="Задать прямоугольник" HorizontalAlignment="Center" Click="startMethodButton_Click"></Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
