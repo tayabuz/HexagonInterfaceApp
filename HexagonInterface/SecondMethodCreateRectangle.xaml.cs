@@ -83,6 +83,8 @@ namespace HexagonInterface
                 SetUpFirstYValue.Text = "";
                 SetRectangleHeight.Text = "";
                 SetRectangleWidth.Text = "";
+                SetCheckPointX.Text = "";
+                SetCheckPointY.Text = "";
             }
         }
 
