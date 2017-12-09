@@ -84,6 +84,8 @@ namespace HexagonInterface
                 SetUpFirstYValue.Text = "";
                 SetUpSecondXValue.Text = "";
                 SetUpSecondYValue.Text = "";
+                SetCheckPointX.Text = "";
+                SetCheckPointY.Text = "";
             }
         }
         private bool EnterRectangleValue(string TextBoxString)
