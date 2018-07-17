@@ -36,10 +36,8 @@ namespace HexagonInterface
             Frame frame = Window.Current.Content as Frame;
             if (frame.CanGoBack)
             {
-                frame.Navigate(typeof(SecondMethodCreateRectangle));
-                e.Handled = true; // указываем, что событие обработано
-                frame.Navigate(typeof(FirstMethodCreateRectangle));
-                e.Handled = true; // указываем, что событие обработано
+                frame.GoBack();
+                e.Handled = true; 
             }
         }
         private Hexagon hex;
